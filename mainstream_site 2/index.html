@@ -28,7 +28,7 @@
       "addressRegion": "NJ",
       "addressCountry": "US"
     },
-    "areaServed": ["Bergen County NJ", "Passaic County NJ", "Franklin Lakes NJ", "Ridgewood NJ", "Wyckoff NJ", "Upper Saddle River NJ", "Teaneck NJ", "Glen Rock NJ", "Fair Lawn NJ", "Oakland NJ", "North Haledon NJ", "Mahwah NJ", "Ramsey NJ", "Wayne NJ", "Clifton NJ"],
+    "areaServed": ["Bergen County NJ", "Passaic County NJ", "Franklin Lakes NJ", "Ridgewood NJ", "Wyckoff NJ", "Upper Saddle River NJ", "Teaneck NJ", "Glen Rock NJ", "Fair Lawn NJ", "Oakland NJ", "North Haledon NJ", "Mahwah NJ", "Ramsey NJ", "Wayne NJ", "Clifton NJ", "Allendale NJ", "Ho-Ho-Kus NJ"],
     "priceRange": "$$",
     "description": "Owner-operated plumbing and heating service based in Franklin Lakes, NJ. Licensed Master Plumber #10260 serving Bergen and Passaic County homeowners."
   }
@@ -280,6 +280,8 @@
           <span class="reveal">Ramsey</span>
           <span class="reveal">Wayne</span>
           <span class="reveal">Clifton</span>
+          <span class="reveal">Allendale</span>
+          <span class="reveal">Ho-Ho-Kus</span>
         </div>
         <p class="area-note reveal">Not sure if your home is in the service area? Call 201-848-0046 and ask Steven directly.</p>
       </div>
@@ -321,50 +323,14 @@
     </section>
 
     <section class="section contact section-dark" id="contact">
-      <div class="container contact-grid">
+      <div class="container narrow">
         <div class="contact-copy reveal">
-          <p class="eyebrow">Request Service</p>
+          <p class="eyebrow">Call for Service</p>
           <h2>Need Plumbing or Heating Help?</h2>
-          <p>For the fastest response, call Steven directly. You can also send a service request and Mainstream will follow up when available.</p>
+          <p>For the fastest response, call Steven directly to discuss your plumbing or heating needs.</p>
           <a class="big-phone" href="tel:12018480046">201-848-0046</a>
           <p class="license-line">Licensed Master Plumber #10260 • Franklin Lakes, NJ</p>
         </div>
-        <form class="contact-form reveal reveal-delay-1" name="service-request" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
-          <input type="hidden" name="form-name" value="service-request">
-          <p class="hidden"><label>Don’t fill this out: <input name="bot-field"></label></p>
-          <div class="form-row">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" autocomplete="name" required>
-          </div>
-          <div class="form-row">
-            <label for="phone">Phone Number</label>
-            <input id="phone" name="phone" type="tel" autocomplete="tel" required>
-          </div>
-          <div class="form-row">
-            <label for="town">Town</label>
-            <input id="town" name="town" type="text" autocomplete="address-level2">
-          </div>
-          <div class="form-row">
-            <label for="service">Service Needed</label>
-            <select id="service" name="service">
-              <option value="">Select a service</option>
-              <option>Boiler / heating service</option>
-              <option>Water heater</option>
-              <option>Gas line work</option>
-              <option>General plumbing repair</option>
-              <option>Pipe repair / leak issue</option>
-              <option>Bathroom plumbing</option>
-              <option>Drain cleaning</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Briefly describe the issue"></textarea>
-          </div>
-          <button class="btn btn-primary form-button" type="submit">Send Request</button>
-          <p class="form-note">For urgent plumbing or heating issues, calling is recommended.</p>
-        </form>
       </div>
     </section>
   </main>
