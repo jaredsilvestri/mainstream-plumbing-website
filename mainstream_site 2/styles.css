@@ -37,3 +37,6 @@ button,input,select,textarea{font:inherit}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 @media (min-width:641px){.town-grid{grid-template-columns:repeat(3,1fr)}}
 .review-actions{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+@media (min-width:981px){.gallery{grid-auto-rows:300px}}
+@media (min-width:641px) and (max-width:980px){.gallery{grid-auto-rows:280px}}
+@media (max-width:640px){.gallery{grid-auto-rows:330px}}
